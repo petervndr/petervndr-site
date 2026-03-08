@@ -1,0 +1,44 @@
+<!--
+  ORGANIZATION SCHEMA FOR SOCIALCLUBSTUDIOS.COM
+
+  Add this JSON-LD script to the <head> of every page on socialclubstudios.com.
+  This creates a two-way entity connection: Peter → SCS (via Person schema on petervndr.com)
+  and SCS → Peter (via this Organization schema).
+
+  If using WordPress: Add via a plugin like "Insert Headers and Footers" or paste into header.php
+  If using Webflow/Squarespace: Add to the custom code section in site settings
+  If using GoHighLevel: Add to the funnel/website header code injection
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://socialclubstudios.com/#organization",
+  "name": "Social Club Studios",
+  "url": "https://socialclubstudios.com",
+  "description": "Marketing agency specializing in client acquisition systems for accounting firms — ad funnels, VSLs, messaging, GoHighLevel builds, and lead nurturing.",
+  "founder": {
+    "@type": "Person",
+    "name": "Peter Vander Wall",
+    "@id": "https://petervndr.com/about#person",
+    "url": "https://petervndr.com"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "IL",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/social-club-studios"
+  ],
+  "knowsAbout": [
+    "Marketing for accounting firms",
+    "Facebook advertising",
+    "Video sales letters",
+    "Lead generation",
+    "GoHighLevel",
+    "Sales funnels"
+  ]
+}
+</script>

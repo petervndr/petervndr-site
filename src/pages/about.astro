@@ -1,0 +1,442 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://petervndr.com/about#person",
+  "name": "Peter Vander Wall",
+  "alternateName": ["petervndr"],
+  "description": "Marketing strategist for accounting firms. Founder of Social Club Studios and SYAF Advisory.",
+  "disambiguatingDescription": "The Accountant's Marketing Guy — helps accounting firm owners scale past referrals through marketing, messaging, and acquisition systems. Based in the Chicago area.",
+  "jobTitle": "Founder & CEO",
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "Social Club Studios",
+      "url": "https://socialclubstudios.com"
+    },
+    {
+      "@type": "Organization",
+      "name": "SYAF Advisory"
+    }
+  ],
+  "url": "https://petervndr.com",
+  "image": "https://petervndr.com/images/peter-vander-wall.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "IL",
+    "addressCountry": "US"
+  },
+  "knowsAbout": [
+    "Marketing for accounting firms",
+    "Facebook advertising for accountants",
+    "Video sales letters",
+    "Lead generation for CPA firms",
+    "Sales funnels",
+    "GoHighLevel",
+    "B2B marketing",
+    "Niche marketing strategy"
+  ],
+  "sameAs": [
+    "https://www.youtube.com/@petervndr",
+    "https://www.linkedin.com/in/petervanderwall/",
+    "https://twitter.com/petervndr",
+    "https://www.instagram.com/petervndr/",
+    "https://www.tiktok.com/@petervndr",
+    "https://www.facebook.com/petervndr",
+    "https://podcasts.apple.com/us/podcast/scale-your-accounting-firm-with-peter-vander-wall/id1726654302",
+    "https://www.skool.com/syaf",
+    "https://www.threads.net/@petervndr"
+  ]
+};
+---
+
+<BaseLayout
+  title="About Peter Vander Wall — Marketing Strategist for Accounting Firms"
+  description="Peter Vander Wall is a marketing strategist specializing in client acquisition systems for accounting firm owners. Founder of Social Club Studios and SYAF Advisory. $5M+ generated for clients since 2021."
+  canonicalURL="/about"
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+  </Fragment>
+
+  <article class="about">
+    <section class="about-hero">
+      <div class="about-hero-inner">
+        <div class="about-image">
+          <img
+            src="/images/peter-vander-wall.jpg"
+            alt="Peter Vander Wall — The Accountant's Marketing Guy"
+            width="320"
+            height="320"
+          />
+        </div>
+        <div class="about-intro">
+          <h1>Peter Vander Wall</h1>
+          <p class="about-tagline">The Accountant's Marketing Guy</p>
+          <p class="about-role">Founder of <a href="https://socialclubstudios.com" target="_blank" rel="noopener">Social Club Studios</a> &amp; <a href="https://joinsyaf.com" target="_blank" rel="noopener">Scale Your Accounting Firm</a></p>
+          <p class="about-location">Crown Point, IN</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h2>Who I Am</h2>
+      <p>
+        I'm a marketing strategist who works exclusively with accounting firm owners. I help them build predictable
+        client acquisition systems that work beyond referrals — ad funnels, VSLs, messaging frameworks, and
+        lead nurturing systems that turn cold traffic into paying clients.
+      </p>
+      <p>
+        I started my career as a freelance videographer and generalist marketer. I noticed that accounting firms
+        consistently got the best results from my work, so I doubled down on the niche. Since 2021, the systems
+        I've built for accounting firm owners have generated over 8 figures in revenue for my clients.
+      </p>
+      <p>
+        I run two businesses: <a href="https://socialclubstudios.com" target="_blank" rel="noopener">Social Club Studios</a>,
+        a marketing agency that builds acquisition systems for accounting firms — ad funnels, VSLs, messaging,
+        CRM builds, lead nurturing — and <a href="https://joinsyaf.com" target="_blank" rel="noopener">Scale Your Accounting Firm</a>,
+        an advisory firm for accountants looking to scale with proven frameworks.
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2>What I Believe</h2>
+      <p>
+        Whoever demonstrates the clearest understanding of the prospect's problem gets the privilege of solving it.
+        That's the foundation of everything I build. I don't start with tactics — I start with the pain. If you
+        can speak the customer's language better than they can, you win.
+      </p>
+      <p>
+        Most accountants aren't selling accounting. They're selling growth, clarity, confidence, and a path out
+        of chaos. The marketing should reflect that. Every system I build starts with a deep "brain dump" — a
+        proprietary onboarding process that extracts a firm's expertise and turns it into messaging that actually
+        converts.
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2>Client Results</h2>
+
+      <div class="results">
+        <div class="result">
+          <span class="result-number">Scaled to $3M/yr in 3 years</span>
+          <span class="result-label">Ryan Bakke, Tax Strategy 365</span>
+          <span class="result-detail">Real estate CPA firm offering tax strategy for real estate investors. Scaled from $100k in 2021 to $3M in 2024, built a 50k+ online audience, and built one of the best-known education brands in the real estate space.</span>
+          <a href="https://youtu.be/gO7lH1motAo" target="_blank" rel="noopener" class="result-cta">Watch Case Study &rarr;</a>
+        </div>
+
+        <div class="result">
+          <span class="result-number">Added $130k ARR in under 6 weeks</span>
+          <span class="result-label">Brock Hartzler, Pro Mover Accounting</span>
+          <span class="result-detail">Bookkeeping &amp; tax prep firm for local moving companies. Launched ads in Jan 2025 and added $130k in ARR from less than $10k in adspend. This firm went on to scale from $34k to $92k MRR by the end of 2025.</span>
+          <a href="https://youtu.be/U6QCPbCaioE" target="_blank" rel="noopener" class="result-cta">Watch Case Study &rarr;</a>
+        </div>
+
+        <div class="result">
+          <span class="result-number">Closed $400k in one month</span>
+          <span class="result-label">Daniel Koehler, GTG Tax Planning</span>
+          <span class="result-detail">Tax planning firm for high earners in the tech industry. Closed over $100k of new tax planning engagements their first 3 months running ads, and less than 6 months in they did a record-breaking $400k of new sales in a 30-day period.</span>
+          <a href="https://youtu.be/58xQRty7ZBc" target="_blank" rel="noopener" class="result-cta">Watch Case Study &rarr;</a>
+        </div>
+
+        <div class="result">
+          <span class="result-number">Our fastest sales launch ever</span>
+          <span class="result-label">Brian Mayoral, WeSellUp</span>
+          <span class="result-detail">Outsourced sales for accounting firms. Brian's reps sell average over $1M/mo of new revenue closed for clients. When we collaborated on a client in 2025, Brian shared it was their fastest sales team launch in company history.</span>
+          <a href="https://youtu.be/sAWQ7PvCaas" target="_blank" rel="noopener" class="result-cta">Watch Case Study &rarr;</a>
+        </div>
+
+        <div class="result">
+          <span class="result-number">Closed 3 CFO deals in one month</span>
+          <span class="result-label">Zokpia Olumese, Zopia Accounting</span>
+          <span class="result-detail">Fractional CFO for AV &amp; events production companies. Went from 4-10 leads per year to closing 3 out of 5 leads in one month after messaging refinement.</span>
+          <a href="https://youtu.be/0Np9ojk9uI8" target="_blank" rel="noopener" class="result-cta">Watch Case Study &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h2>Content &amp; Media</h2>
+      <p>
+        I host the <a href="https://www.youtube.com/@petervndr" target="_blank" rel="noopener">Scale Your Accounting Firm</a>
+        podcast — a show focused on giving you the tools you need to successfully scale a modern accounting firm.
+        Found anywhere you listen to podcasts.
+      </p>
+      <p>
+        And of course, I'd love to connect on your favorite social media platform.
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2>Connect</h2>
+      <ul class="connect-list">
+        <li><a href="https://www.youtube.com/@petervndr" target="_blank" rel="noopener">YouTube — @petervndr</a></li>
+        <li><a href="https://www.linkedin.com/in/petervanderwall/" target="_blank" rel="noopener">LinkedIn — Peter Vander Wall</a></li>
+        <li><a href="https://www.instagram.com/petervndr/" target="_blank" rel="noopener">Instagram — @petervndr</a></li>
+        <li><a href="https://twitter.com/petervndr" target="_blank" rel="noopener">X / Twitter — @petervndr</a></li>
+        <li><a href="https://www.tiktok.com/@petervndr" target="_blank" rel="noopener">TikTok — @petervndr</a></li>
+        <li><a href="https://www.threads.net/@petervndr" target="_blank" rel="noopener">Threads — @petervndr</a></li>
+        <li><a href="https://www.facebook.com/petervndr" target="_blank" rel="noopener">Facebook — petervndr</a></li>
+        <li><a href="https://www.skool.com/syaf" target="_blank" rel="noopener">Skool — Community</a></li>
+        <li><a href="https://socialclubstudios.com" target="_blank" rel="noopener">Social Club Studios — socialclubstudios.com</a></li>
+      </ul>
+      <div class="connect-cta">
+        <a href="/contact" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .about {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Hero — dark gradient, pulled up behind transparent nav */
+  .about-hero {
+    margin-top: -74px;
+    padding: calc(4rem + 74px) 2rem 3rem;
+    background: #121212;
+  }
+
+  .about-hero-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .about-image img {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: var(--color-white);
+    margin-bottom: 0.35rem;
+    line-height: 1.15;
+  }
+
+  .about-tagline {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-role {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.25rem;
+  }
+
+  .about-role a {
+    color: var(--color-accent-light);
+  }
+
+  .about-role a:hover {
+    color: var(--color-white);
+  }
+
+  .about-location {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+  }
+
+  /* Content sections — light background */
+  .about-section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    border-bottom: 1px solid #e0e0e8;
+  }
+
+  .about-section:last-child {
+    border-bottom: none;
+  }
+
+  .about-section h2 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #1a1a2e;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    position: relative;
+  }
+
+  .about-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: var(--color-accent);
+  }
+
+  .about-section p {
+    font-size: 0.95rem;
+    line-height: 1.85;
+    color: #565A7C;
+    margin-bottom: 1.25rem;
+  }
+
+  .about-section p:last-child {
+    margin-bottom: 0;
+  }
+
+  .about-section p strong {
+    color: #1a1a2e;
+  }
+
+  .results {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #e0e0e8;
+    border-left: 4px solid var(--color-accent);
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    transition: border-color 0.25s, box-shadow 0.25s;
+  }
+
+  .result:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 20px rgba(104, 0, 252, 0.08);
+  }
+
+  .result-number {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #1a1a2e;
+  }
+
+  .result-label {
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    font-weight: 600;
+    margin-top: 0.35rem;
+  }
+
+  .result-detail {
+    font-size: 0.85rem;
+    color: #565A7C;
+    line-height: 1.7;
+    margin-top: 0.35rem;
+  }
+
+  .result-cta {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    transition: color 0.2s;
+  }
+
+  .result-cta:hover {
+    color: var(--color-accent-light);
+  }
+
+  .connect-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .connect-list li a {
+    display: block;
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #565A7C;
+    border-bottom: 1px solid #e0e0e8;
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .connect-list li a:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  .connect-cta {
+    margin-top: 2rem;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 18px 32px;
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    transition: all 0.25s;
+  }
+
+  .btn-primary {
+    background: var(--color-accent);
+    color: var(--color-white);
+    border: 2px solid var(--color-accent);
+  }
+
+  .btn-primary:hover {
+    background: var(--color-accent-light);
+    border-color: var(--color-accent-light);
+    color: var(--color-white);
+    transform: translateY(-1px);
+  }
+
+  @media (max-width: 600px) {
+    .about-hero {
+      padding: calc(1.5rem + 74px) 1.25rem 2rem;
+    }
+
+    .about-hero-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .about-image img {
+      width: 180px;
+      height: 180px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .about-section {
+      padding: 2.5rem 1.25rem;
+    }
+
+    .about-section h2::after {
+      left: 0;
+    }
+  }
+</style>

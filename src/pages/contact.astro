@@ -1,0 +1,276 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Contact Peter Vander Wall — The Accountant's Marketing Guy"
+  description="Get in touch with Peter Vander Wall. Marketing strategist for accounting firm owners. Founder of Social Club Studios and SYAF Advisory."
+  canonicalURL="/contact"
+>
+  <section class="contact-hero">
+    <div class="contact-hero-inner">
+      <h1>Get in Touch</h1>
+      <p class="contact-intro">
+        Whether you're an accounting firm owner looking to scale past referrals or you want to collaborate
+        on media, I'd like to hear from you.
+      </p>
+      <a href="#contact-form" class="btn btn-primary hero-btn">Contact Me</a>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="contact-options">
+      <div class="contact-card">
+        <h2>Done-for-You Marketing Funnels</h2>
+        <p>
+          If you're running an accounting firm doing $2M+ and want predictable client acquisition,
+          let's talk about how Social Club Studios can help.
+        </p>
+        <a href="https://socialclubstudios.com" target="_blank" rel="noopener" class="card-cta">Learn More &rarr;</a>
+      </div>
+
+      <div class="contact-card">
+        <h2>Get Help Scaling</h2>
+        <p>
+          Scale Your Accounting Firm is our advisory practice where we help you build the marketing,
+          sales, and fulfillment systems to break through the 7-figure ceiling.
+        </p>
+        <a href="https://joinsyaf.com" target="_blank" rel="noopener" class="card-cta">Learn More &rarr;</a>
+      </div>
+
+      <div class="contact-card">
+        <h2>Media &amp; Speaking</h2>
+        <p>
+          For podcast guest appearances, speaking inquiries, or press requests, reach out via the
+          contact form below.
+        </p>
+        <a href="#contact-form" class="card-cta">Get in Touch &rarr;</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section-cta" id="contact-form">
+    <div class="section-cta-inner">
+      <h2>Get in Touch</h2>
+      <div class="typeform-wrap" data-tf-live="01KK5NYATD4V9TEKPTC4ZC0VEV"></div>
+      <script is:inline src="//embed.typeform.com/next/embed.js"></script>
+      <div class="cta-social">
+        <a href="https://www.youtube.com/@petervndr" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.linkedin.com/in/petervanderwall/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/petervndr/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://twitter.com/petervndr" target="_blank" rel="noopener">X</a>
+        <a href="https://www.tiktok.com/@petervndr" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.skool.com/syaf" target="_blank" rel="noopener">Skool</a>
+        <a href="https://podcasts.apple.com/us/podcast/scale-your-accounting-firm-with-peter-vander-wall/id1726654302" target="_blank" rel="noopener">Podcast</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Hero — dark gradient, pulled up behind transparent nav */
+  .contact-hero {
+    margin-top: -74px;
+    padding: calc(4rem + 74px) 2rem 3rem;
+    background: #121212;
+  }
+
+  .contact-hero-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: var(--color-white);
+    margin-bottom: 1rem;
+  }
+
+  .hero-btn {
+    margin-top: 1.5rem;
+  }
+
+  .contact-intro {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.8;
+    max-width: 650px;
+  }
+
+  .contact {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 3rem 2rem 4rem;
+  }
+
+  .contact-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #e0e0e8;
+    border-top: 3px solid var(--color-accent);
+    border-radius: 6px;
+    padding: 2rem 1.75rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+  }
+
+  .card-cta {
+    margin-top: auto;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    transition: color 0.2s;
+  }
+
+  .card-cta:hover {
+    color: var(--color-accent-light);
+  }
+
+  .contact-card:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(104, 0, 252, 0.08);
+  }
+
+  .contact-card h2 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #1a1a2e;
+    margin-bottom: 0.75rem;
+  }
+
+  .contact-card p {
+    font-size: 0.92rem;
+    color: #565A7C;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 16px 28px;
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    transition: all 0.25s;
+  }
+
+  .btn-primary {
+    background: var(--color-accent);
+    color: var(--color-white);
+    border: 2px solid var(--color-accent);
+  }
+
+  .btn-primary:hover {
+    background: var(--color-accent-light);
+    border-color: var(--color-accent-light);
+    color: var(--color-white);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    border: 2px solid #d0d0dc;
+    color: #565A7C;
+    background: transparent;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    background: rgba(104, 0, 252, 0.05);
+    transform: translateY(-1px);
+  }
+
+  /* CTA Section */
+  .section-cta {
+    background: #f5f5f5;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .section-cta-inner {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .section-cta h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 900;
+    color: #1a1a2e;
+    margin-bottom: 1.25rem;
+    position: relative;
+    padding-bottom: 0.75rem;
+  }
+
+  .section-cta h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--color-accent);
+  }
+
+  .typeform-wrap {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+  }
+
+  .cta-social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .cta-social a {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #666;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    transition: all 0.25s;
+  }
+
+  .cta-social a:hover {
+    border-color: var(--color-accent-light);
+    color: var(--color-accent-light);
+  }
+
+  @media (max-width: 600px) {
+    .contact-hero {
+      padding: calc(2.5rem + 74px) 1.25rem 2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .contact {
+      padding: 2.5rem 1.25rem;
+    }
+  }
+</style>
