@@ -35,12 +35,31 @@ const fullCanonical = canonicalURL ? `${siteURL}${canonicalURL}` : siteURL;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={`${siteURL}${ogImage}`} />
 
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
     <!-- Preload fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Global Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://petervndr.com/#website",
+      "name": "Peter Vander Wall",
+      "alternateName": "petervndr",
+      "url": "https://petervndr.com",
+      "description": "Marketing strategist for accounting firm owners. Founder of Social Club Studios and Scale Your Accounting Firm.",
+      "publisher": {
+        "@id": "https://petervndr.com/about#person"
+      }
+    }
+    </script>
 
     <slot name="head" />
   </head>

@@ -6,26 +6,30 @@ const personSchema = {
   "@type": "Person",
   "@id": "https://petervndr.com/about#person",
   "name": "Peter Vander Wall",
-  "alternateName": ["petervndr"],
-  "description": "Marketing strategist for accounting firms. Founder of Social Club Studios and SYAF Advisory.",
-  "disambiguatingDescription": "The Accountant's Marketing Guy — helps accounting firm owners scale past referrals through marketing, messaging, and acquisition systems. Based in the Chicago area.",
+  "alternateName": ["petervndr", "The Accountant's Marketing Guy"],
+  "description": "Marketing strategist for accounting firms. Founder of Social Club Studios and Scale Your Accounting Firm.",
+  "disambiguatingDescription": "The Accountant's Marketing Guy — helps accounting firm owners scale past referrals through marketing, messaging, and client acquisition systems. Based in Crown Point, Indiana.",
   "jobTitle": "Founder & CEO",
   "worksFor": [
     {
       "@type": "Organization",
       "name": "Social Club Studios",
-      "url": "https://socialclubstudios.com"
+      "url": "https://socialclubstudios.com",
+      "description": "Marketing agency specializing in client acquisition systems for accounting firms"
     },
     {
       "@type": "Organization",
-      "name": "SYAF Advisory"
+      "name": "Scale Your Accounting Firm",
+      "url": "https://joinsyaf.com",
+      "description": "Advisory community for accounting firm owners looking to scale"
     }
   ],
   "url": "https://petervndr.com",
   "image": "https://petervndr.com/images/peter-vander-wall.jpg",
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "IL",
+    "addressLocality": "Crown Point",
+    "addressRegion": "IN",
     "addressCountry": "US"
   },
   "knowsAbout": [
@@ -34,9 +38,11 @@ const personSchema = {
     "Video sales letters",
     "Lead generation for CPA firms",
     "Sales funnels",
-    "GoHighLevel",
+    "CRM implementation",
     "B2B marketing",
-    "Niche marketing strategy"
+    "Niche marketing strategy",
+    "Client acquisition systems",
+    "Messaging and positioning for accountants"
   ],
   "sameAs": [
     "https://www.youtube.com/@petervndr",
@@ -47,14 +53,16 @@ const personSchema = {
     "https://www.facebook.com/petervndr",
     "https://podcasts.apple.com/us/podcast/scale-your-accounting-firm-with-peter-vander-wall/id1726654302",
     "https://www.skool.com/syaf",
-    "https://www.threads.net/@petervndr"
+    "https://www.threads.net/@petervndr",
+    "https://socialclubstudios.com",
+    "https://joinsyaf.com"
   ]
 };
 ---
 
 <BaseLayout
   title="About Peter Vander Wall — Marketing Strategist for Accounting Firms"
-  description="Peter Vander Wall is a marketing strategist specializing in client acquisition systems for accounting firm owners. Founder of Social Club Studios and SYAF Advisory. $5M+ generated for clients since 2021."
+  description="Peter Vander Wall is a marketing strategist specializing in client acquisition systems for accounting firm owners. Founder of Social Club Studios and Scale Your Accounting Firm. 8 figures generated for clients since 2021."
   canonicalURL="/about"
 >
   <Fragment slot="head">

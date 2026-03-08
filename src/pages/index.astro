@@ -1,5 +1,44 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const homeSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://petervndr.com/#service",
+  "name": "Peter Vander Wall — Marketing for Accounting Firms",
+  "alternateName": "The Accountant's Marketing Guy",
+  "url": "https://petervndr.com",
+  "image": "https://petervndr.com/images/peter-vander-wall.jpg",
+  "description": "Marketing strategist helping accounting firm owners build predictable client acquisition systems — ad funnels, VSLs, messaging frameworks, and CRM builds.",
+  "founder": {
+    "@id": "https://petervndr.com/about#person"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "US"
+  },
+  "serviceType": [
+    "Marketing Strategy for Accounting Firms",
+    "Facebook Advertising for Accountants",
+    "Sales Funnel Development",
+    "Video Sales Letters",
+    "Lead Generation for CPA Firms",
+    "CRM Implementation",
+    "Messaging & Positioning"
+  ],
+  "knowsAbout": [
+    "Accounting firm marketing",
+    "Client acquisition systems",
+    "Tax planning firm growth",
+    "Bookkeeping firm scaling"
+  ],
+  "sameAs": [
+    "https://socialclubstudios.com",
+    "https://joinsyaf.com",
+    "https://www.youtube.com/@petervndr",
+    "https://www.linkedin.com/in/petervanderwall/"
+  ]
+};
 ---
 
 <BaseLayout
@@ -7,6 +46,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   description="Founder of Social Club Studios and Scale Your Accounting Firm. Helping accounting firm owners build predictable revenue since 2021."
   canonicalURL="/"
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(homeSchema)} />
+  </Fragment>
   <section class="hero">
     <div class="hero-content">
       <div class="hero-text">

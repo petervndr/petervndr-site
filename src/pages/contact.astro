@@ -1,12 +1,27 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const contactSchema = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": "https://petervndr.com/contact#page",
+  "name": "Contact Peter Vander Wall",
+  "description": "Get in touch with Peter Vander Wall — marketing strategist for accounting firm owners.",
+  "url": "https://petervndr.com/contact",
+  "mainEntity": {
+    "@id": "https://petervndr.com/about#person"
+  }
+};
 ---
 
 <BaseLayout
   title="Contact Peter Vander Wall — The Accountant's Marketing Guy"
-  description="Get in touch with Peter Vander Wall. Marketing strategist for accounting firm owners. Founder of Social Club Studios and SYAF Advisory."
+  description="Get in touch with Peter Vander Wall. Marketing strategist for accounting firm owners. Founder of Social Club Studios and Scale Your Accounting Firm."
   canonicalURL="/contact"
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(contactSchema)} />
+  </Fragment>
   <section class="contact-hero">
     <div class="contact-hero-inner">
       <h1>Get in Touch</h1>
