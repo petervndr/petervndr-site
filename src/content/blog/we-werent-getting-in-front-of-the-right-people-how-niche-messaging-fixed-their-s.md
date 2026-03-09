@@ -8,6 +8,23 @@ thumbnail: "https://i.ytimg.com/vi/eS1Uq5-Lwj0/maxresdefault.jpg"
 description: "How Rudy Rodriguez of Freedom From Accounting went from broad, untargeted marketing to niche messaging that lets him see leads sitting at the kitchen table."
 duration: "PT9M30S"
 viewCount: 105
+tags:
+  - "messaging"
+  - "niche-marketing"
+  - "construction-accounting"
+  - "lead-generation"
+  - "case-study"
+faq:
+  - question: "How do I get better leads for my accounting firm?"
+    answer: "The problem is almost always your messaging, not your ad spend or platform. Get specific about who you are talking to and what they are actually thinking. When your marketing speaks to a specific person's specific pain, only qualified leads respond — and they come in pre-sold."
+  - question: "What is a brand messaging process for accountants?"
+    answer: "It is a deep-dive discovery process where you build a complete psychological profile of your ideal client — their fears, frustrations, desires, and the exact language they use. The goal is messaging so specific that your ideal client reads it and thinks you are reading their mind."
+  - question: "Should accounting firms niche down their marketing?"
+    answer: "Yes. Broad messaging attracts broad, unqualified leads. When you speak directly to one industry or one type of client, your marketing filters out the wrong people automatically. One firm went from stagnant results to 3x return on ad spend just by niching their messaging to construction companies."
+  - question: "How do I market my accounting firm to construction companies?"
+    answer: "Speak to the specific pain points construction company owners face — cash flow management during slow seasons, project-based billing challenges, and subcontractor expenses. Generic accounting messaging will not land with these owners. You need language that makes them feel like you understand their world."
+  - question: "Why is my accounting firm getting unqualified leads from ads?"
+    answer: "Your messaging is too broad. If your ads could apply to anyone with a tax return, you will attract anyone with a tax return. Dial in your messaging to speak to one specific type of client and their specific problems, and the quality of your leads will change immediately."
 ---
 
 Rudy Rodriguez runs Freedom From Accounting, a CPA firm that serves the construction industry. When we started working together, his marketing was broad, untargeted, and generating leads he had no business talking to. Within a few months, his messaging was so dialed in that he could — in his own words — literally see his ideal client sitting at the kitchen table thinking the exact thoughts his marketing addressed.
@@ -61,3 +78,25 @@ That's how you build a sales function that scales. You don't hire a salesperson 
 Rudy's story is a perfect example of what happens when you stop trying to talk to everyone and start talking to someone specific. The construction industry has its own problems, its own language, its own fears. A broad "we do accounting" message doesn't land with those people. But a message that speaks to the construction company owner sitting at their kitchen table wondering how they're going to manage cash flow through a slow season — that person picks up the phone.
 
 If your marketing feels like it's generating activity but not results, the problem almost certainly isn't your ad spend or your platform. It's your messaging. Get specific about who you're talking to and what they're actually thinking, and the rest of the system starts to work.
+
+## Frequently Asked Questions
+
+### How do I get better leads for my accounting firm?
+
+The problem is almost always your messaging, not your ad spend or platform. Get specific about who you are talking to and what they are actually thinking. When your marketing speaks to a specific person's specific pain, only qualified leads respond — and they come in pre-sold.
+
+### What is a brand messaging process for accountants?
+
+It is a deep-dive discovery process where you build a complete psychological profile of your ideal client — their fears, frustrations, desires, and the exact language they use. The goal is messaging so specific that your ideal client reads it and thinks you are reading their mind.
+
+### Should accounting firms niche down their marketing?
+
+Yes. Broad messaging attracts broad, unqualified leads. When you speak directly to one industry or one type of client, your marketing filters out the wrong people automatically. One firm went from stagnant results to 3x return on ad spend just by niching their messaging to construction companies.
+
+### How do I market my accounting firm to construction companies?
+
+Speak to the specific pain points construction company owners face — cash flow management during slow seasons, project-based billing challenges, and subcontractor expenses. Generic accounting messaging will not land with these owners. You need language that makes them feel like you understand their world.
+
+### Why is my accounting firm getting unqualified leads from ads?
+
+Your messaging is too broad. If your ads could apply to anyone with a tax return, you will attract anyone with a tax return. Dial in your messaging to speak to one specific type of client and their specific problems, and the quality of your leads will change immediately.

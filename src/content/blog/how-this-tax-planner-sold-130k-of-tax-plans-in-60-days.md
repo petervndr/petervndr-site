@@ -8,6 +8,23 @@ thumbnail: "https://i.ytimg.com/vi/58xQRty7ZBc/maxresdefault.jpg"
 description: "Daniel Koehler of GTG Tax Planning closed $130k in tax plan sales in 60 days using niche messaging and targeted ads for tech workers with RSUs."
 duration: "PT20M30S"
 viewCount: 191
+tags:
+  - "facebook-ads"
+  - "tax-planning"
+  - "niching-down"
+  - "lead-generation"
+  - "client-case-studies"
+faq:
+  - question: "How do tax planners get clients from Facebook ads?"
+    answer: "Speak directly to one specific pain point your ideal client has. Daniel Koehler's ads targeted tech workers frustrated by RSU taxation, and the message was essentially 'RSUs suck — you can do something about it.' When your ad makes someone feel like you're inside their head, they click. Specificity beats generalist messaging every time."
+  - question: "How much can a tax planner make from paid advertising?"
+    answer: "Daniel Koehler closed $130,000 in tax plan sales within about 60 days of launching targeted ads. That doesn't include the advisory add-ons he discovered through the sales process. At $3,000 to $5,000 per month in ad spend, the return can be substantial if your messaging is dialed in to a specific niche."
+  - question: "How do I find my niche as a tax planner?"
+    answer: "Look at your existing client base and find the segment that's growing, has a clear pain point, and where your personal experience gives you credibility. Daniel noticed tech workers with RSUs were a growing part of his book and he had firsthand experience with stock compensation from his time at Netflix. That overlap became his niche."
+  - question: "Why are referrals dangerous for accounting firm growth?"
+    answer: "Referrals feel free, but they're addictive in a dangerous way. You stop investing in marketing and your growth becomes entirely dependent on other people's willingness to send clients your way. If your top referrer gets sick or forgets about you, your pipeline dies overnight. You need a lever you can pull whenever you want."
+  - question: "What is a brain dump in accounting firm marketing?"
+    answer: "It's a proprietary onboarding exercise where we extract everything a firm owner knows about their clients, their problems, and their unique expertise. It reframes how you think about your offering and gives us the raw material to build messaging that resonates deeply with your ideal client. It changed everything for Daniel Koehler's positioning."
 ---
 
 Daniel Koehler owns GTG Tax Planning in Salt Lake City. He does taxes for 1099 self-employed business owners, but noticed a growing segment of his client base — software engineers, developers, and tech salespeople dealing with RSUs and employee stock plans. He decided to go all in on that niche. Within about 60 days of launching targeted ads, he closed $130,000 in tax plan sales.
@@ -79,3 +96,25 @@ The shift from referral-dependent to ad-driven is uncomfortable. It costs money 
 Daniel's story comes down to three things. First, get specific about who you serve and what pain point you're solving — so specific that your ideal client reads your ad and feels like you're inside their head. Second, make sure your systems match your client's reality, not yours. And third, don't underestimate the value of those early sales calls — they're not just revenue, they're the best market research you'll ever get.
 
 If you knew you were $3,000 a month in ad spend away from building your business five years ahead of where you thought it'd be — what would you sell, stop spending money on, or rearrange to make that happen?
+
+## Frequently Asked Questions
+
+### How do tax planners get clients from Facebook ads?
+
+Speak directly to one specific pain point your ideal client has. Daniel Koehler's ads targeted tech workers frustrated by RSU taxation, and the message was essentially "RSUs suck — you can do something about it." When your ad makes someone feel like you're inside their head, they click. Specificity beats generalist messaging every time.
+
+### How much can a tax planner make from paid advertising?
+
+Daniel Koehler closed $130,000 in tax plan sales within about 60 days of launching targeted ads. That doesn't include the advisory add-ons he discovered through the sales process. At $3,000 to $5,000 per month in ad spend, the return can be substantial if your messaging is dialed in to a specific niche.
+
+### How do I find my niche as a tax planner?
+
+Look at your existing client base and find the segment that's growing, has a clear pain point, and where your personal experience gives you credibility. Daniel noticed tech workers with RSUs were a growing part of his book and he had firsthand experience with stock compensation from his time at Netflix. That overlap became his niche.
+
+### Why are referrals dangerous for accounting firm growth?
+
+Referrals feel free, but they're addictive in a dangerous way. You stop investing in marketing and your growth becomes entirely dependent on other people's willingness to send clients your way. If your top referrer gets sick or forgets about you, your pipeline dies overnight. You need a lever you can pull whenever you want.
+
+### What is a brain dump in accounting firm marketing?
+
+It's a proprietary onboarding exercise where we extract everything a firm owner knows about their clients, their problems, and their unique expertise. It reframes how you think about your offering and gives us the raw material to build messaging that resonates deeply with your ideal client. It changed everything for Daniel Koehler's positioning.

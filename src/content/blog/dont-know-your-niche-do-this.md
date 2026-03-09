@@ -8,6 +8,20 @@ thumbnail: "https://i.ytimg.com/vi/wZNl-DbasCQ/maxresdefault.jpg"
 description: "A simple exercise to find your niche using your existing client list. Export, filter, and find the overlap that defines your ideal client."
 duration: "PT1M1S"
 viewCount: 211
+tags:
+  - "niching-down"
+  - "client-acquisition"
+  - "business-scaling"
+  - "ideal-client"
+faq:
+  - question: "How do I find my niche as an accounting firm?"
+    answer: "Export your entire client list, delete the clients you wouldn't want more of, and look for patterns in the ones you love — industry, goals, pain points. The overlap in those patterns is your niche. You don't invent it, you discover it from the data you already have."
+  - question: "Should accountants specialize in one industry?"
+    answer: "Yes. Specializing lets you build systems, messaging, and expertise around a specific type of client, which makes your marketing more effective and your service delivery more efficient. The firms scaling fastest are the ones that went deep on one niche instead of trying to serve everyone."
+  - question: "What if I pick the wrong niche for my accounting firm?"
+    answer: "Your client list already tells you where you deliver the best results and enjoy the work the most. Start there. If you've been serving a cluster of clients in a specific industry and they're happy, that's a signal — not a guess. You can always refine later, but the data gives you a strong starting point."
+  - question: "How do I know if my accounting niche is profitable?"
+    answer: "Look at the clients on your list who pay the most, stay the longest, and refer others. If there's a pattern in what industry or business stage they're in, that's your most profitable niche. Profitability follows specificity — the more focused you are, the easier it is to command premium fees."
 ---
 
 If you have no idea what your niche should be, the answer is already sitting in your client list. You just need to pull it out.
@@ -42,3 +56,21 @@ Those points of overlap — where the circles in your Venn diagram intersect —
 It's not something you invent. It's something you discover by looking at who you already serve best and enjoy serving most. The data is already there. You just need to read it.
 
 Stop overthinking your niche. Open your client list and let it tell you.
+
+## Frequently Asked Questions
+
+### How do I find my niche as an accounting firm?
+
+Export your entire client list, delete the clients you wouldn't want more of, and look for patterns in the ones you love — industry, goals, pain points. The overlap in those patterns is your niche. You don't invent it, you discover it from the data you already have.
+
+### Should accountants specialize in one industry?
+
+Yes. Specializing lets you build systems, messaging, and expertise around a specific type of client, which makes your marketing more effective and your service delivery more efficient. The firms scaling fastest are the ones that went deep on one niche instead of trying to serve everyone.
+
+### What if I pick the wrong niche for my accounting firm?
+
+Your client list already tells you where you deliver the best results and enjoy the work the most. Start there. If you've been serving a cluster of clients in a specific industry and they're happy, that's a signal — not a guess. You can always refine later, but the data gives you a strong starting point.
+
+### How do I know if my accounting niche is profitable?
+
+Look at the clients on your list who pay the most, stay the longest, and refer others. If there's a pattern in what industry or business stage they're in, that's your most profitable niche. Profitability follows specificity — the more focused you are, the easier it is to command premium fees.

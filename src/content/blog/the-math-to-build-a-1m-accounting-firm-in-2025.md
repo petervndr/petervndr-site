@@ -8,6 +8,23 @@ thumbnail: "https://i.ytimg.com/vi/fx7rW0d1NQU/maxresdefault.jpg"
 description: "Learn the one marketing KPI that determines if your accounting firm can scale profitably: CAC to LTGP ratio, with real examples and levers to pull."
 duration: "PT17M48S"
 viewCount: 2341
+tags:
+  - "marketing-strategy"
+  - "pricing"
+  - "funnel"
+  - "facebook-ads"
+  - "business-scaling"
+faq:
+  - question: "What is a good CAC to LTGP ratio for accounting firms?"
+    answer: "A healthy target is anything above 1 to 3, meaning you spend a dollar to make three dollars in gross profit. If you are below that, diagnose whether the problem is on the acquisition side or the delivery side. Above 1 to 5 means you have a scalable machine and should be investing more aggressively in growth."
+  - question: "How do you calculate customer acquisition cost for an accounting firm?"
+    answer: "Add up everything you spend to get clients in the door: ad spend, agency fees, software costs, marketing team salaries, and sales commissions. Divide that total by the number of new clients you brought on that month. Do not just count ad spend — that is not honest math."
+  - question: "How much does it cost to acquire a new accounting client?"
+    answer: "It varies by niche and service, but a well-run funnel typically produces a CAC between $500 and $2,000 for bookkeeping clients, and $2,000 to $7,000 for higher-ticket services like tax planning or fractional CFO. The number matters less than the ratio of what you spend versus what you earn back."
+  - question: "How do accounting firms increase client lifetime value?"
+    answer: "Three levers: improve your onboarding process so clients stick longer, stop letting bad-fit clients in the door who churn quickly, and build an ascension ladder of services so clients can move from tax prep to bookkeeping to CFO-level work over time."
+  - question: "Should accounting firms invest in content marketing or paid ads?"
+    answer: "Both, but at different stages. Content follows an exponential growth curve — double your investment, get more than double the output. Ads follow diminishing returns. The smartest play is to scale content investment aggressively while increasing ad spend more conservatively."
 ---
 
 There is one marketing KPI that my agency pays attention to above everything else. If this KPI is working, you have got a scalable, profitable machine. If it is not working, you have got a disaster waiting to happen and cash flow problems are right around the corner.
@@ -73,3 +90,25 @@ If your ratio is sitting at 1 to 2.5 or lower, there are really only two possibi
 Calculate your CAC to LTGP ratio. If it is above 1 to 3, you have a scalable business on your hands. Start pulling levers to increase it. If it is below that, diagnose whether the problem is on the acquisition side or the delivery side, fix it, and then scale.
 
 This is the one number that tells you whether your firm is a money-printing machine or a disaster waiting to happen. Start tracking it today.
+
+## Frequently Asked Questions
+
+### What is a good CAC to LTGP ratio for accounting firms?
+
+A healthy target is anything above 1 to 3, meaning you spend a dollar to make three dollars in gross profit. If you are below that, diagnose whether the problem is on the acquisition side or the delivery side. Above 1 to 5 means you have a scalable machine and should be investing more aggressively in growth.
+
+### How do you calculate customer acquisition cost for an accounting firm?
+
+Add up everything you spend to get clients in the door: ad spend, agency fees, software costs, marketing team salaries, and sales commissions. Divide that total by the number of new clients you brought on that month. Do not just count ad spend — that is not honest math.
+
+### How much does it cost to acquire a new accounting client?
+
+It varies by niche and service, but a well-run funnel typically produces a CAC between $500 and $2,000 for bookkeeping clients, and $2,000 to $7,000 for higher-ticket services like tax planning or fractional CFO. The number matters less than the ratio of what you spend versus what you earn back.
+
+### How do accounting firms increase client lifetime value?
+
+Three levers: improve your onboarding process so clients stick longer, stop letting bad-fit clients in the door who churn quickly, and build an ascension ladder of services so clients can move from tax prep to bookkeeping to CFO-level work over time.
+
+### Should accounting firms invest in content marketing or paid ads?
+
+Both, but at different stages. Content follows an exponential growth curve — double your investment, get more than double the output. Ads follow diminishing returns. The smartest play is to scale content investment aggressively while increasing ad spend more conservatively.

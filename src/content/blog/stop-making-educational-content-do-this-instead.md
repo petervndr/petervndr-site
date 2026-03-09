@@ -8,6 +8,21 @@ thumbnail: "https://i.ytimg.com/vi/leOb6qRvkrs/maxresdefault.jpg"
 description: "Educational content attracts other professionals, not your ideal clients. Here's the framework that actually drives leads for accounting firms."
 duration: "PT17M16S"
 viewCount: 446
+tags:
+  - "content-strategy"
+  - "lead-generation"
+  - "social-media"
+  - "ideal-client"
+  - "funnel"
+faq:
+  - question: "Why doesn't educational content work for accountants?"
+    answer: "Educational content attracts other professionals — CPAs, bookkeepers, tax advisors — not your ideal clients. Your clients do not want to learn how to do your job. They want an expert they can trust to handle it for them. Focus on what they should do and why it matters, not the technical how."
+  - question: "What kind of content should accounting firms post?"
+    answer: "Focus on what your ideal client thinks they need — the problems already on their mind. Use a three-tier strategy: top of funnel content that matches their current thinking, middle of funnel case studies that shift their beliefs, and bottom of funnel content that positions your service as the solution."
+  - question: "How do accountants find their ideal client for content?"
+    answer: "List out all your current clients and track their annual revenue, their next business goal, what makes them a good client, and what services you provide them. Patterns will emerge in industry, revenue size, and pain points. That overlap is your ideal client profile."
+  - question: "How often should accounting firms post on social media?"
+    answer: "Four to five short-form videos a week is a realistic cadence. Monday through Wednesday focus on top-of-funnel content, Thursday post a case study or demo, and Friday through Saturday rotate between tiers. You can batch all of this in three or four hours once a month."
 ---
 
 Everyone has been telling you that creating educational content will build your brand, establish authority, and get you more clients. They're wrong. Educational content is where expertise goes to die. Here's what you should be doing instead.
@@ -72,3 +87,21 @@ A realistic posting cadence might be four to five short form videos a week. Mond
 Stop creating content that teaches people how to do your job. That attracts peers, not clients. Instead, get inside your ideal client's head. Understand what they think they need. Create content that speaks to those perceived needs at the top of the funnel, and then gradually transitions them to what they actually need.
 
 The complexities come over time as you refine what's working. Starting out, there's no complexity to it. The only thing holding you back is whether or not you're going to do it.
+
+## Frequently Asked Questions
+
+### Why doesn't educational content work for accountants?
+
+Educational content attracts other professionals — CPAs, bookkeepers, tax advisors — not your ideal clients. Your clients do not want to learn how to do your job. They want an expert they can trust to handle it for them. Focus on what they should do and why it matters, not the technical how.
+
+### What kind of content should accounting firms post?
+
+Focus on what your ideal client thinks they need — the problems already on their mind. Use a three-tier strategy: top of funnel content that matches their current thinking, middle of funnel case studies that shift their beliefs, and bottom of funnel content that positions your service as the solution.
+
+### How do accountants find their ideal client for content?
+
+List out all your current clients and track their annual revenue, their next business goal, what makes them a good client, and what services you provide them. Patterns will emerge in industry, revenue size, and pain points. That overlap is your ideal client profile.
+
+### How often should accounting firms post on social media?
+
+Four to five short-form videos a week is a realistic cadence. Monday through Wednesday focus on top-of-funnel content, Thursday post a case study or demo, and Friday through Saturday rotate between tiers. You can batch all of this in three or four hours once a month.

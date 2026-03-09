@@ -8,6 +8,23 @@ thumbnail: "https://i.ytimg.com/vi/U6QCPbCaioE/maxresdefault.jpg"
 description: "Brock Hartzler of ProMover Accounting scaled from $30k to $92k/mo in 12 months. Here's the exact marketing, sales, and delivery playbook he used."
 duration: "PT1H42S"
 viewCount: 874
+tags:
+  - "facebook-ads"
+  - "bookkeeping"
+  - "lead-generation"
+  - "business-scaling"
+  - "client-case-studies"
+faq:
+  - question: "How much should a bookkeeping firm spend on Facebook ads?"
+    answer: "Plan to invest $4,000 to $5,000 per month to start. Expect the first $5,000 to $10,000 to go toward training the algorithm — similar to training a new employee. Don't pull the plug early. Once the system learns who your ideal client is, the returns compound quickly."
+  - question: "How do I scale a bookkeeping business past $30k per month?"
+    answer: "The bottleneck is almost never your product — it's awareness. Paid advertising is the fastest way to buy that awareness. But be ready: once leads start flowing, you'll need to fix capacity, hiring, and sales in sequence. Solve one constraint at a time in the order they appear."
+  - question: "What is a good churn rate for a bookkeeping firm?"
+    answer: "Brock Hartzler's ProMover Accounting runs at less than 1% annual churn, which is exceptional. At that rate, clients stay for years and lifetime value climbs into the tens of thousands. Low churn means you can afford to spend more to acquire each new client, which fuels faster growth."
+  - question: "How long before Facebook ads work for accounting firms?"
+    answer: "Give it at least 60 to 90 days. The first few weeks are about the algorithm learning who your ideal client is and where to find them. Most firm owners quit too early — they spend $100, don't see $200 back immediately, and decide ads don't work. That's like firing a new hire after their first day of training."
+  - question: "Can bookkeeping firms use paid ads to get clients?"
+    answer: "Absolutely. Brock Hartzler added $7,000 in new monthly recurring revenue in his first month of ads on about $4,000 to $5,000 in spend. The key is having a solid service first — paid ads buy awareness, but your product has to close and retain the clients once they show up."
 ---
 
 Brock Hartzler runs ProMover Accounting, a bookkeeping firm that exclusively serves local moving companies across the country. When we started working together, he was doing about $30,000 a month. Twelve months later, he crossed $92,000 a month in recurring revenue.
@@ -72,3 +89,25 @@ But here's the part that matters: he had to fix things in order. Marketing first
 You can't do all of that at once. You find the path of most resistance, fix it, and move on to the next one.
 
 If you're an accounting firm owner sitting at $30,000 or $50,000 a month and you know your service is solid but your growth has stalled, the bottleneck is almost certainly not your product. It's the fact that not enough of the right people know you exist. Fix that first, and be ready for what comes after.
+
+## Frequently Asked Questions
+
+### How much should a bookkeeping firm spend on Facebook ads?
+
+Plan to invest $4,000 to $5,000 per month to start. Expect the first $5,000 to $10,000 to go toward training the algorithm — similar to training a new employee. Don't pull the plug early. Once the system learns who your ideal client is, the returns compound quickly.
+
+### How do I scale a bookkeeping business past $30k per month?
+
+The bottleneck is almost never your product — it's awareness. Paid advertising is the fastest way to buy that awareness. But be ready: once leads start flowing, you'll need to fix capacity, hiring, and sales in sequence. Solve one constraint at a time in the order they appear.
+
+### What is a good churn rate for a bookkeeping firm?
+
+Brock Hartzler's ProMover Accounting runs at less than 1% annual churn, which is exceptional. At that rate, clients stay for years and lifetime value climbs into the tens of thousands. Low churn means you can afford to spend more to acquire each new client, which fuels faster growth.
+
+### How long before Facebook ads work for accounting firms?
+
+Give it at least 60 to 90 days. The first few weeks are about the algorithm learning who your ideal client is and where to find them. Most firm owners quit too early — they spend $100, don't see $200 back immediately, and decide ads don't work. That's like firing a new hire after their first day of training.
+
+### Can bookkeeping firms use paid ads to get clients?
+
+Absolutely. Brock Hartzler added $7,000 in new monthly recurring revenue in his first month of ads on about $4,000 to $5,000 in spend. The key is having a solid service first — paid ads buy awareness, but your product has to close and retain the clients once they show up.

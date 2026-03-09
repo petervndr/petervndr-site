@@ -8,6 +8,23 @@ thumbnail: "https://i.ytimg.com/vi/gO7lH1motAo/maxresdefault.jpg"
 description: "Ryan Bakke scaled Tax Strategy 365 from $100K to nearly $3M in revenue. Here's the marketing, sales, and operations playbook behind the growth."
 duration: "PT47M53S"
 viewCount: 671
+tags:
+  - "business-scaling"
+  - "vsl-funnel"
+  - "sales"
+  - "client-case-studies"
+  - "real-estate-cpa"
+faq:
+  - question: "How do I scale a CPA firm to $3 million in revenue?"
+    answer: "You need all three elements working: traffic, offer, and fulfillment. Crack paid advertising with a strong VSL funnel, build a sales process that doesn't depend on you, and hire a team that can deliver without you in the room. Ryan Bakke did exactly this — $100K to $3M in three years."
+  - question: "What is a VSL funnel for accounting firms?"
+    answer: "A VSL funnel is a video sales letter paired with an application process. You run paid ads to a page with a 5 to 6 minute video explaining who you help and how, stack proof underneath, and let qualified prospects book a call. Ryan Bakke's VSL funnel generates roughly a 6x return on ad spend."
+  - question: "How do CPAs get out of doing all the client work themselves?"
+    answer: "Start by doing a two-week time audit of everything you do. Then hire for the roles where someone else can handle the work, and transfer your authority to them deliberately — name-drop them in content, bring them on webinars, and let clients interact with them before onboarding. We call this the Drake Feature method."
+  - question: "How should accountants handle unqualified leads?"
+    answer: "Don't just boot them and lose their information. Funnel unqualified leads into a lower-priced offer — a course, bootcamp, or live event — and keep nurturing them through content and email. When they grow into qualified prospects, it's a much easier sale because they already trust your brand."
+  - question: "What is the best sales approach for accounting firms?"
+    answer: "Sell the plan out of hell, not the path to heaven. Spend 90% of the sales conversation focused on the prospect's pain, problems, and the cost of doing nothing. Once they commit and buy, then switch to positive motivation. Whoever demonstrates the clearest understanding of the problem gets the privilege of solving it."
 ---
 
 Ryan Bakke owns Tax Strategy 365, a real estate CPA firm. We have been working together since the very beginning. In 2021, he did about $100,000 in revenue while still working his 9 to 5. In 2022, he quit his job and hit $850,000. In 2023, he crossed $1.6 million. And by the end of 2024, he closed out at just under $3 million.
@@ -18,7 +35,7 @@ This is the breakdown of the marketing, sales, and operations moves that made th
 
 For the entire time we have been working together, Ryan has had his podcast going out every week on YouTube and Spotify, plus short-form content across Instagram, TikTok, LinkedIn, and Twitter. For a while, that was the main source of traffic.
 
-But the real turning point in 2024 was cracking the paid advertising channel. We built a VSSL funnel that lets us put a dollar in and get roughly a 6x return on ad spend. Beyond the leads that convert immediately, every lead gets added to his email list. We think of it like all roads lead to Rome, and Rome is the email list. Once someone is on that list, we can direct them to the podcast, the Facebook group (which is now over 10,000 real estate investors), or back to the sales funnel whenever we want.
+But the real turning point in 2024 was cracking the paid advertising channel. We built a VSL funnel that lets us put a dollar in and get roughly a 6x return on ad spend. Beyond the leads that convert immediately, every lead gets added to his email list. We think of it like all roads lead to Rome, and Rome is the email list. Once someone is on that list, we can direct them to the podcast, the Facebook group (which is now over 10,000 real estate investors), or back to the sales funnel whenever we want.
 
 Ryan put it well: you do not always want the people who convert right away. Someone who has been in your audience for six or seven months is much easier to sell than someone who just heard of you this week. It is 10 times harder to sell to a cold lead than someone who has had the conversation before the conversation with you for months.
 
@@ -74,6 +91,28 @@ As AI pushes the low end of accounting toward hyper-efficient, impersonal servic
 
 ## The Takeaway
 
-Ryan's story is proof of what happens when you nail all three elements of a business: traffic, offer, and fulfillment. He built a personal brand, cracked paid advertising with a strong VSSL funnel, created a sales process that does not depend on him, and hired a team that can deliver without him being in the room.
+Ryan's story is proof of what happens when you nail all three elements of a business: traffic, offer, and fulfillment. He built a personal brand, cracked paid advertising with a strong VSL funnel, created a sales process that does not depend on him, and hired a team that can deliver without him being in the room.
 
 If you are under $500,000 a year, you are not really a business yet. You are a solopreneur. Use that as an advantage on sales calls. People love working directly with the owner. But start planning your exit from the day-to-day now, because the plateau is coming. And when it does, you want the systems and people in place to break through it.
+
+## Frequently Asked Questions
+
+### How do I scale a CPA firm to $3 million in revenue?
+
+You need all three elements working: traffic, offer, and fulfillment. Crack paid advertising with a strong VSL funnel, build a sales process that doesn't depend on you, and hire a team that can deliver without you in the room. Ryan Bakke did exactly this — $100K to $3M in three years.
+
+### What is a VSL funnel for accounting firms?
+
+A VSL funnel is a video sales letter paired with an application process. You run paid ads to a page with a 5 to 6 minute video explaining who you help and how, stack proof underneath, and let qualified prospects book a call. Ryan Bakke's VSL funnel generates roughly a 6x return on ad spend.
+
+### How do CPAs get out of doing all the client work themselves?
+
+Start by doing a two-week time audit of everything you do. Then hire for the roles where someone else can handle the work, and transfer your authority to them deliberately — name-drop them in content, bring them on webinars, and let clients interact with them before onboarding. We call this the Drake Feature method.
+
+### How should accountants handle unqualified leads?
+
+Don't just boot them and lose their information. Funnel unqualified leads into a lower-priced offer — a course, bootcamp, or live event — and keep nurturing them through content and email. When they grow into qualified prospects, it's a much easier sale because they already trust your brand.
+
+### What is the best sales approach for accounting firms?
+
+Sell the plan out of hell, not the path to heaven. Spend 90% of the sales conversation focused on the prospect's pain, problems, and the cost of doing nothing. Once they commit and buy, then switch to positive motivation. Whoever demonstrates the clearest understanding of the problem gets the privilege of solving it.

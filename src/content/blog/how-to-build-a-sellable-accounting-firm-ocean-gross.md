@@ -8,6 +8,22 @@ thumbnail: "https://i.ytimg.com/vi/FcKWpGy4yPM/maxresdefault.jpg"
 description: "Investment banker Ocean Gross breaks down the 5 types of risk that determine your accounting firm's valuation — and how to eliminate each one."
 duration: "PT37M42S"
 viewCount: 194
+tags:
+  - "business-scaling"
+  - "firm-valuation"
+  - "exit-planning"
+  - "hiring"
+faq:
+  - question: "How much is my accounting firm worth?"
+    answer: "Your firm's value is based on a multiple of your profit (EBITDA), and that multiple goes up or down based on five types of risk: keyman risk, key client risk, single channel risk, market risk, and data risk. Fewer risks mean a higher multiple. A firm keeping $1M in profit at a 3x multiple is worth $3M."
+  - question: "What is keyman risk in an accounting firm?"
+    answer: "Keyman risk exists when your marketing, sales, or service delivery depends on one person — usually you, the owner. If all referrals come because clients love you personally, or you're the lead advisor doing all the work, a buyer knows the business loses its most valuable operator the moment the deal closes. That tanks your valuation."
+  - question: "How do I make my accounting firm sellable?"
+    answer: "Reduce risk across five areas: remove yourself from day-to-day operations, diversify your client base so no single client is more than 20% of revenue, build multiple lead generation channels, position against market threats like AI, and keep your financials clean and data-driven. Building a sellable firm and building a great firm are the same thing."
+  - question: "How do I reduce keyman risk in my accounting firm?"
+    answer: "Start with a two-week time audit of everything you do. Identify which tasks someone else could handle and hire A-level talent — ideally people who've held that role at a firm 2x to 3x your size. They've already solved the problems you're about to face. Yes, they cost more, but strong team members dramatically increase what a buyer will pay."
+  - question: "Should I worry about AI replacing accountants when selling my firm?"
+    answer: "AI is a real consideration for buyers, but the relationship between a client and their accountant is deeply personal. Technology reaches capability long before the market trusts it enough to hand over control. Position your firm around human advisory and relationships, and tell that story clearly. How you frame your relationship to market risk directly impacts your valuation."
 ---
 
 I sat down with my friend Ocean Gross, an investment banker who specializes in business transactions, to walk through the framework that determines whether your accounting firm is actually sellable — and what it's worth when you go to sell.
@@ -87,3 +103,25 @@ Complete elimination of all five risks is unlikely. But reduction across the boa
 Even if you're not planning to sell anytime soon, thinking through these risks changes how you run your business day to day. Reducing keyman risk means building a team that doesn't depend on you. Reducing key client risk means diversifying your revenue. Reducing data risk means making better decisions.
 
 Building a sellable firm and building a great firm are the same thing. Start by identifying which of these five risks is your biggest vulnerability right now, and make that your next project to solve.
+
+## Frequently Asked Questions
+
+### How much is my accounting firm worth?
+
+Your firm's value is based on a multiple of your profit (EBITDA), and that multiple goes up or down based on five types of risk: keyman risk, key client risk, single channel risk, market risk, and data risk. Fewer risks mean a higher multiple. A firm keeping $1M in profit at a 3x multiple is worth $3M.
+
+### What is keyman risk in an accounting firm?
+
+Keyman risk exists when your marketing, sales, or service delivery depends on one person — usually you, the owner. If all referrals come because clients love you personally, or you're the lead advisor doing all the work, a buyer knows the business loses its most valuable operator the moment the deal closes. That tanks your valuation.
+
+### How do I make my accounting firm sellable?
+
+Reduce risk across five areas: remove yourself from day-to-day operations, diversify your client base so no single client is more than 20% of revenue, build multiple lead generation channels, position against market threats like AI, and keep your financials clean and data-driven. Building a sellable firm and building a great firm are the same thing.
+
+### How do I reduce keyman risk in my accounting firm?
+
+Start with a two-week time audit of everything you do. Identify which tasks someone else could handle and hire A-level talent — ideally people who've held that role at a firm 2x to 3x your size. They've already solved the problems you're about to face. Yes, they cost more, but strong team members dramatically increase what a buyer will pay.
+
+### Should I worry about AI replacing accountants when selling my firm?
+
+AI is a real consideration for buyers, but the relationship between a client and their accountant is deeply personal. Technology reaches capability long before the market trusts it enough to hand over control. Position your firm around human advisory and relationships, and tell that story clearly. How you frame your relationship to market risk directly impacts your valuation.

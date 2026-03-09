@@ -8,6 +8,20 @@ thumbnail: "https://i.ytimg.com/vi/zJe6xtna-bk/maxresdefault.jpg"
 description: "The smart way to use free work to build a full client roster, raise your prices, and transition to premium fees without burning bridges."
 duration: "PT1M23S"
 viewCount: 540
+tags:
+  - "pricing"
+  - "client-acquisition"
+  - "bookkeeping"
+  - "business-scaling"
+faq:
+  - question: "Should accountants work for free to get clients?"
+    answer: "Yes, but strategically. Take on free work to fill your schedule completely, and in exchange, require five-star reviews from every free client. Once your calendar is full, you have real leverage to start charging — no fake scarcity needed, just genuine demand."
+  - question: "How do I raise my accounting fees without losing clients?"
+    answer: "Fill your schedule at the current rate first. When new clients come in, charge the higher rate. Then go to your existing clients with an honest conversation — your rate has gone up, and they can stay at the new price or move on. Some will pay, some won't, and both outcomes work in your favor."
+  - question: "How do I get my first bookkeeping clients with no experience?"
+    answer: "Offer free or low-cost work to pack your schedule, collect reviews and testimonials, and let referrals and demand build naturally. Once you're fully booked, start charging for new clients and phase out the free ones. It's not charity — it's a deliberate strategy to build proof and leverage."
+  - question: "When should I start charging for accounting services?"
+    answer: "As soon as your schedule is genuinely full. That's the signal. When someone new wants to work with you and you have no availability, you can honestly say the only way in is at your paid rate. Demand creates the pricing power — you don't need to manufacture it."
 ---
 
 Should you work for free when you're first starting out? Yes. Absolutely. But not for just anybody.
@@ -39,3 +53,21 @@ You were charging $500 a month. Now you're charging $800 a month. Every new clie
 No gimmicks. No pressure. Just supply and demand working in your favor because you built real value first.
 
 The takeaway: free work isn't charity — it's a strategy. Use it to build proof, fill your calendar, and create the leverage you need to raise prices naturally.
+
+## Frequently Asked Questions
+
+### Should accountants work for free to get clients?
+
+Yes, but strategically. Take on free work to fill your schedule completely, and in exchange, require five-star reviews from every free client. Once your calendar is full, you have real leverage to start charging — no fake scarcity needed, just genuine demand.
+
+### How do I raise my accounting fees without losing clients?
+
+Fill your schedule at the current rate first. When new clients come in, charge the higher rate. Then go to your existing clients with an honest conversation — your rate has gone up, and they can stay at the new price or move on. Some will pay, some won't, and both outcomes work in your favor.
+
+### How do I get my first bookkeeping clients with no experience?
+
+Offer free or low-cost work to pack your schedule, collect reviews and testimonials, and let referrals and demand build naturally. Once you're fully booked, start charging for new clients and phase out the free ones. It's not charity — it's a deliberate strategy to build proof and leverage.
+
+### When should I start charging for accounting services?
+
+As soon as your schedule is genuinely full. That's the signal. When someone new wants to work with you and you have no availability, you can honestly say the only way in is at your paid rate. Demand creates the pricing power — you don't need to manufacture it.

@@ -8,6 +8,23 @@ thumbnail: "https://i.ytimg.com/vi/TIU36TVn5W4/maxresdefault.jpg"
 description: "A 4-step marketing strategy for bookkeepers to attract ideal clients, build a funnel, drive traffic, and track ROI with real examples and numbers."
 duration: "PT22M"
 viewCount: 13240
+tags:
+  - "bookkeeping"
+  - "lead-generation"
+  - "facebook-ads"
+  - "funnel"
+  - "niche"
+faq:
+  - question: "How do bookkeepers get clients in 2025?"
+    answer: "Start by niching down to a specific industry, then build an application funnel with a VSL, testimonials, and a vetting process. Drive traffic through content if you are under $1M a year, or paid ads if you are above that. Track your return on marketing spend so you know exactly what is working."
+  - question: "How much should a bookkeeping firm spend on marketing?"
+    answer: "Most bookkeeping firms see results starting at $3,000 to $5,000 per month in ad spend within the first 90 days. The key metric is your return on marketing spend — if you are putting a dollar in and getting two or more dollars out, keep scaling."
+  - question: "What is an application funnel for accountants?"
+    answer: "An application funnel is a smarter version of a contact page. It includes a video sales letter, client testimonials, an application form to vet leads before they book, and a call booking form. This way only qualified prospects end up on your calendar."
+  - question: "Do bookkeepers need a niche to get clients?"
+    answer: "Yes. Your niche is your competitive edge. A bookkeeping firm that specializes in one industry will always beat a generalist because prospects trust a specialist who deeply understands their business. One of our clients niched into moving companies and tripled his revenue in under a year."
+  - question: "What is a good ROI for accounting firm marketing?"
+    answer: "A healthy return on marketing spend is 2x or higher in the short term. For long-term profitability, look at your lifetime gross profit to customer acquisition cost ratio — anything above 3 to 1 means you have a scalable machine and should be increasing your marketing budget."
 ---
 
 If I was a bookkeeper looking to get clients right now, there are four steps I would follow. This is the exact strategy we plugged into one of our client's bookkeeping firms. Within about 20 days of running ads with some organic content mixed in, he added $130,000 in annual sales between tax and bookkeeping. That is roughly 20% growth in just over three weeks.
@@ -40,7 +57,7 @@ Once you know who you are targeting and what message will resonate with them, yo
 
 What I like to build is an application funnel. It is really just a better contact page. Four elements:
 
-**A Video Sales Letter (VSSL):** A 5 to 10 minute video where you walk prospects through one or two of those core talking points that matter most to your ideal client. Brock's is titled "The 3 Questions Every Moving Company Owner Can Ask to Know Their Numbers." By the time someone gets to that video, they already want to learn how to know their numbers because all the ads and content have been building that desire.
+**A Video Sales Letter (VSL):** A 5 to 10 minute video where you walk prospects through one or two of those core talking points that matter most to your ideal client. Brock's is titled "The 3 Questions Every Moving Company Owner Can Ask to Know Their Numbers." By the time someone gets to that video, they already want to learn how to know their numbers because all the ads and content have been building that desire.
 
 **Case Studies and Testimonials:** You need to show prospects you have done this for people just like them. Video testimonials are best because you cannot fake someone looking into a camera and talking about how great it is to work with you.
 
@@ -62,7 +79,7 @@ The interesting thing about YouTube is that it works for almost any industry. Pe
 
 Whatever platform you pick, create content that feels native. On LinkedIn, that means written posts with images. On Instagram, high quality reels and carousels. On YouTube, I would go 100% long-form how-to content over 20 minutes, covering the questions your ideal client is already asking.
 
-**If you are over $1M a year,** go straight into paid advertising. Do not overcomplicate it. They click an ad, watch your VSSL, fill out the application, and book a call. Keep it simple and go straight for the conversion.
+**If you are over $1M a year,** go straight into paid advertising. Do not overcomplicate it. They click an ad, watch your VSL, fill out the application, and book a call. Keep it simple and go straight for the conversion.
 
 ## Step 4: Track Your ROI
 
@@ -83,3 +100,25 @@ That is an outstanding benchmark. If you are hitting numbers like that, you shou
 Know who your ideal client is. Build a simple funnel that vets and converts them. Get in front of them through content or ads depending on your stage. And track your ROI so you know exactly what is working and what is not.
 
 This is not theoretical. This is the exact playbook we are running with firms around the country right now. And it works if you commit to it.
+
+## Frequently Asked Questions
+
+### How do bookkeepers get clients in 2025?
+
+Start by niching down to a specific industry, then build an application funnel with a VSL, testimonials, and a vetting process. Drive traffic through content if you are under $1M a year, or paid ads if you are above that. Track your return on marketing spend so you know exactly what is working.
+
+### How much should a bookkeeping firm spend on marketing?
+
+Most bookkeeping firms see results starting at $3,000 to $5,000 per month in ad spend within the first 90 days. The key metric is your return on marketing spend — if you are putting a dollar in and getting two or more dollars out, keep scaling.
+
+### What is an application funnel for accountants?
+
+An application funnel is a smarter version of a contact page. It includes a video sales letter, client testimonials, an application form to vet leads before they book, and a call booking form. This way only qualified prospects end up on your calendar.
+
+### Do bookkeepers need a niche to get clients?
+
+Yes. Your niche is your competitive edge. A bookkeeping firm that specializes in one industry will always beat a generalist because prospects trust a specialist who deeply understands their business. One of our clients niched into moving companies and tripled his revenue in under a year.
+
+### What is a good ROI for accounting firm marketing?
+
+A healthy return on marketing spend is 2x or higher in the short term. For long-term profitability, look at your lifetime gross profit to customer acquisition cost ratio — anything above 3 to 1 means you have a scalable machine and should be increasing your marketing budget.

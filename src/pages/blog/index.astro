@@ -30,16 +30,40 @@ function parseDuration(iso: string): string {
   if (h > 0) return `${h}h ${m}m`;
   return `${m} min`;
 }
+
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Free Content — Marketing for Accounting Firms",
+  "description": "Marketing strategy, client case studies, sales tactics, and growth playbooks for accounting firm owners.",
+  "url": "https://petervndr.com/blog",
+  "isPartOf": {
+    "@id": "https://petervndr.com/#website"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": posts.length,
+    "itemListElement": posts.map((post, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": `https://petervndr.com/blog/${post.id}`,
+      "name": post.data.title
+    }))
+  }
+};
 ---
 
 <BaseLayout
-  title="Blog — Peter Vander Wall | Marketing for Accounting Firms"
+  title="Free Content — Peter Vander Wall | Marketing for Accounting Firms"
   description="Marketing strategy, client case studies, sales tactics, and growth playbooks for accounting firm owners. By Peter Vander Wall."
   canonicalURL="/blog"
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(blogSchema)} />
+  </Fragment>
   <section class="blog-hero">
     <div class="blog-hero-inner">
-      <h1>Blog</h1>
+      <h1>Free Content</h1>
       <p class="blog-intro">Marketing strategy, case studies, and growth playbooks for accounting firm owners.</p>
     </div>
   </section>

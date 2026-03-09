@@ -19,6 +19,11 @@ const blog = defineCollection({
     description: z.string(),
     duration: z.string(),
     viewCount: z.number(),
+    tags: z.array(z.string()).optional(),
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
   }),
 });
 

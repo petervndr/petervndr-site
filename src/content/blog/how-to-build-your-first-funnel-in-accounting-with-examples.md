@@ -5,9 +5,26 @@ category: "marketing-strategy"
 categoryLabel: "Marketing Strategy"
 youtubeId: "kxKYi5a06QY"
 thumbnail: "https://i.ytimg.com/vi/kxKYi5a06QY/maxresdefault.jpg"
-description: "The best-performing funnel structure for accounting firms in 2026: a two-part VSSL application funnel plus webinar, with real examples and close rates."
+description: "The best-performing funnel structure for accounting firms in 2026: a two-part VSL application funnel plus webinar, with real examples and close rates."
 duration: "PT16M22S"
 viewCount: 262
+tags:
+  - "funnel"
+  - "vsl-funnel"
+  - "lead-generation"
+  - "marketing-strategy"
+  - "webinar"
+faq:
+  - question: "What is the best funnel for accounting firms?"
+    answer: "A two-part system: an application funnel (VSL page with proof and a booking form) as your primary conversion path, plus a webinar funnel that recaptures every lead who didn't convert the first time. Together, they typically add about a 5% bump in close rate across the board."
+  - question: "What close rate should accountants expect from a funnel?"
+    answer: "From paid ads, expect about 20% on showed calls with the application funnel alone, and 25% when you add the webinar. Organic traffic converts at 30 to 40%, and referrals at 50% or higher. The webinar component recaptures warm leads who leaked out of the primary path."
+  - question: "How long should a VSL be for an accounting firm?"
+    answer: "About 5 to 6 minutes. Walk through who you help, what problems you solve, and how your process works. Keep it clear and at a conversational reading level. The VSL isn't where you close the sale — it's where you earn the right to have a conversation. Stack proof underneath the video to do the heavy lifting."
+  - question: "How do webinar funnels work for accountants?"
+    answer: "The webinar funnel targets warm leads who didn't convert through your main application funnel — people who saw ads but didn't click, applied but didn't book, or booked but didn't show. You invite all of them to a 60 to 90 minute educational presentation with a pitch at the end. It's a second chance at conversion you'd otherwise lose."
+  - question: "What should I put on my accounting firm's funnel landing page?"
+    answer: "Three things: a video sales letter, overwhelming proof (Google reviews, video testimonials, screenshots, case study interviews), and an application form with qualifying questions. Keep the design simple — no timers, no gimmicky pop-ups. Information and proof. That's it. The simplest funnel is what tends to perform the best in accounting."
 ---
 
 I have built over 30 funnels for accounting firms around the US. My clients have made a lot of money from these funnels. And in my experience, there is a clear winner when it comes to funnel structure in 2026.
@@ -24,13 +41,13 @@ But before I get into the structure, let me give you the three rules that every 
 
 ## The Best Funnel Structure: Two Parts Working Together
 
-The highest-performing funnel style right now is actually two funnels merged into one. Part one is what I call an application funnel (or VSSL funnel). Part two is a webinar funnel. Here is how each works and how they plug into each other.
+The highest-performing funnel style right now is actually two funnels merged into one. Part one is what I call an application funnel (or VSL funnel). Part two is a webinar funnel. Here is how each works and how they plug into each other.
 
 ## Part 1: The Application Funnel
 
 Traffic comes in from paid ads, social media content, or events. People land on a page with three things: a video sales letter, proof, and an application form.
 
-**The landing page** has a headline that calls out your ideal client, a VSSL that is about 5 to 6 minutes long walking through who you help and how, and a call to action to apply. Below that, stack your proof. One of the funnels we built for a client in the real estate CPA space has 12 testimonial videos on the page, plus Google reviews and a review widget. Some of those testimonials are 1 minute long, some are full 30 to 40 minute interviews. All of them are real clients on camera talking about their experience.
+**The landing page** has a headline that calls out your ideal client, a VSL that is about 5 to 6 minutes long walking through who you help and how, and a call to action to apply. Below that, stack your proof. One of the funnels we built for a client in the real estate CPA space has 12 testimonial videos on the page, plus Google reviews and a review widget. Some of those testimonials are 1 minute long, some are full 30 to 40 minute interviews. All of them are real clients on camera talking about their experience.
 
 **The application form** is where you vet your leads. It asks for basic info plus qualifying questions like annual revenue, industry, and location. If they pass, they get access to book a call.
 
@@ -82,6 +99,28 @@ Here is what that looks like in dollars:
 
 ## The Takeaway
 
-The best funnel is not complicated. It is a simple application page with a strong VSSL, overwhelming proof, and a clean booking flow, combined with a webinar that recaptures every lead who did not convert the first time through.
+The best funnel is not complicated. It is a simple application page with a strong VSL, overwhelming proof, and a clean booking flow, combined with a webinar that recaptures every lead who did not convert the first time through.
 
 Follow the three rules: keep it simple, use plain language, and drown people in proof. Then stack the two funnel models together and let them work as a system. That is how the firms I work with are consistently scaling past seven figures.
+
+## Frequently Asked Questions
+
+### What is the best funnel for accounting firms?
+
+A two-part system: an application funnel (VSL page with proof and a booking form) as your primary conversion path, plus a webinar funnel that recaptures every lead who didn't convert the first time. Together, they typically add about a 5% bump in close rate across the board.
+
+### What close rate should accountants expect from a funnel?
+
+From paid ads, expect about 20% on showed calls with the application funnel alone, and 25% when you add the webinar. Organic traffic converts at 30 to 40%, and referrals at 50% or higher. The webinar component recaptures warm leads who leaked out of the primary path.
+
+### How long should a VSL be for an accounting firm?
+
+About 5 to 6 minutes. Walk through who you help, what problems you solve, and how your process works. Keep it clear and at a conversational reading level. The VSL isn't where you close the sale — it's where you earn the right to have a conversation. Stack proof underneath the video to do the heavy lifting.
+
+### How do webinar funnels work for accountants?
+
+The webinar funnel targets warm leads who didn't convert through your main application funnel — people who saw ads but didn't click, applied but didn't book, or booked but didn't show. You invite all of them to a 60 to 90 minute educational presentation with a pitch at the end. It's a second chance at conversion you'd otherwise lose.
+
+### What should I put on my accounting firm's funnel landing page?
+
+Three things: a video sales letter, overwhelming proof (Google reviews, video testimonials, screenshots, case study interviews), and an application form with qualifying questions. Keep the design simple — no timers, no gimmicky pop-ups. Information and proof. That's it. The simplest funnel is what tends to perform the best in accounting.

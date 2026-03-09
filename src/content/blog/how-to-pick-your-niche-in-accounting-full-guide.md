@@ -8,6 +8,21 @@ thumbnail: "https://i.ytimg.com/vi/K5SXZ77U5TI/maxresdefault.jpg"
 description: "How to niche down your accounting firm to charge premium fees and attract better clients, with 3 real case studies from firms that crossed $1M+."
 duration: "PT14M3S"
 viewCount: 388
+tags:
+  - "niche"
+  - "business-scaling"
+  - "tax-planning"
+  - "bookkeeping"
+  - "pricing"
+faq:
+  - question: "How do I pick a niche for my accounting firm?"
+    answer: "Go through your existing client list and ask three questions: who do I enjoy working with, who is operationally easiest to serve, and who gets the best results from my service? The overlap between those answers is your niche. Every firm I have helped cross their first million got there by getting specific."
+  - question: "Can you still scale an accounting firm with a niche?"
+    answer: "Absolutely. One of my clients niched into short-term rental investors and scaled to $5.5 million a year. Another niched into moving companies and tripled revenue in under a year. There are more than enough clients in any reasonable niche to build as big a firm as you want."
+  - question: "What are the best niches for accounting firms?"
+    answer: "The best niche is one where you have personal buy-in and professional expertise. Real estate investors, construction companies, tech workers, and moving companies are all niches where my clients have built million-dollar-plus firms. The key is specificity — not just real estate, but short-term rental investors specifically."
+  - question: "Why do accountants resist niching down?"
+    answer: "The most common objection is fear of cutting yourself off from good clients outside the niche. But by trying to appeal to everybody, you appeal to nobody. A specialist who speaks directly to a specific group will always win over a generalist, even if the specialist only resonates with 10 percent of the market."
 ---
 
 I have generated over 30,000 leads for accounting firms and helped them make a lot of money from those leads. Whether they offer tax strategy, bookkeeping, or CFO services, the common thread among my most successful clients is they all have a highly specific niche.
@@ -83,3 +98,21 @@ All three of these firms followed the same three steps:
 You can niche down and build as big a firm as you want. The math works. The proof is in the numbers. The only question is whether you are willing to let go of the safety blanket of being everything to everyone and commit to being the obvious choice for a specific group of people.
 
 If you are sitting on the fence about niching down, consider this: every firm I have helped cross their first million dollars in revenue got there by getting specific. Not by staying broad.
+
+## Frequently Asked Questions
+
+### How do I pick a niche for my accounting firm?
+
+Go through your existing client list and ask three questions: who do I enjoy working with, who is operationally easiest to serve, and who gets the best results from my service? The overlap between those answers is your niche. Every firm I have helped cross their first million got there by getting specific.
+
+### Can you still scale an accounting firm with a niche?
+
+Absolutely. One of my clients niched into short-term rental investors and scaled to $5.5 million a year. Another niched into moving companies and tripled revenue in under a year. There are more than enough clients in any reasonable niche to build as big a firm as you want.
+
+### What are the best niches for accounting firms?
+
+The best niche is one where you have personal buy-in and professional expertise. Real estate investors, construction companies, tech workers, and moving companies are all niches where my clients have built million-dollar-plus firms. The key is specificity — not just real estate, but short-term rental investors specifically.
+
+### Why do accountants resist niching down?
+
+The most common objection is fear of cutting yourself off from good clients outside the niche. But by trying to appeal to everybody, you appeal to nobody. A specialist who speaks directly to a specific group will always win over a generalist, even if the specialist only resonates with 10 percent of the market.
