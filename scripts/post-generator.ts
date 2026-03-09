@@ -1,6 +1,7 @@
 /**
  * AI Blog Post Generator
  * Converts YouTube video transcripts into structured blog posts using Claude.
+ * Includes SEO tags and FAQ sections for AEO (AI Engine Optimization).
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
@@ -9,6 +10,11 @@ import { categorizeByKeywords, buildClassificationPrompt, type Category, CATEGOR
 import type { YouTubeVideo } from './youtube-api.js';
 
 const BLOG_DIR = join(process.cwd(), 'src', 'content', 'blog');
+
+interface FaqItem {
+  question: string;
+  answer: string;
+}
 
 interface BlogPostFrontmatter {
   title: string;
@@ -20,6 +26,8 @@ interface BlogPostFrontmatter {
   description: string;
   duration: string;
   viewCount: number;
+  tags: string[];
+  faq: FaqItem[];
 }
 
 /**
@@ -48,13 +56,46 @@ export function postExists(videoId: string): boolean {
 }
 
 /**
+ * Parse tags from response text (comma-separated list)
+ */
+function parseTags(raw: string): string[] {
+  return raw
+    .split(',')
+    .map(t => t.trim().toLowerCase().replace(/[^a-z0-9-\s]/g, '').replace(/\s+/g, '-'))
+    .filter(t => t.length > 0)
+    .slice(0, 5);
+}
+
+/**
+ * Parse FAQ items from response text (Q: / A: format)
+ */
+function parseFaq(raw: string): FaqItem[] {
+  const items: FaqItem[] = [];
+  const blocks = raw.split(/(?=Q:)/i).filter(b => b.trim());
+
+  for (const block of blocks) {
+    const qMatch = block.match(/Q:\s*(.*?)(?=\nA:)/is);
+    const aMatch = block.match(/A:\s*([\s\S]*)/i);
+    if (qMatch && aMatch) {
+      const question = qMatch[1].trim();
+      const answer = aMatch[1].trim();
+      if (question && answer) {
+        items.push({ question, answer });
+      }
+    }
+  }
+
+  return items.slice(0, 5);
+}
+
+/**
  * Call Claude API to generate a blog post from a transcript
  */
 async function generateWithClaude(
   apiKey: string,
   video: YouTubeVideo,
   transcript: string
-): Promise<{ content: string; description: string; category: Category }> {
+): Promise<{ content: string; description: string; category: Category; tags: string[]; faq: FaqItem[] }> {
   // First, try keyword categorization
   let category = categorizeByKeywords(video.title, video.description);
 
@@ -86,11 +127,24 @@ INSTRUCTIONS:
 Also provide:
 - A meta description (150-160 characters) optimized for SEO
 ${!category ? '- A category classification (one of: marketing-strategy, client-case-studies, sales-pricing, business-scaling, content-brand)' : ''}
+- 3-5 topic tags as lowercase hyphenated keywords (e.g., facebook-ads, accounting-niche, lead-generation)
+- 3-5 FAQ items that someone might search for related to this topic. Each should be a natural question with a direct 2-3 sentence answer.
 
 Format your response EXACTLY like this:
 ---META_DESCRIPTION---
 [your meta description here]
 ${!category ? '---CATEGORY---\n[category slug here]' : ''}
+---TAGS---
+[comma-separated tags, e.g.: facebook-ads, accounting-marketing, lead-generation]
+---FAQ---
+Q: [First question?]
+A: [Direct 2-3 sentence answer]
+
+Q: [Second question?]
+A: [Direct 2-3 sentence answer]
+
+Q: [Third question?]
+A: [Direct 2-3 sentence answer]
 ---CONTENT---
 [your blog post content here]`;
 
@@ -103,7 +157,7 @@ ${!category ? '---CATEGORY---\n[category slug here]' : ''}
     },
     body: JSON.stringify({
       model: 'claude-haiku-4-20250414',
-      max_tokens: 4096,
+      max_tokens: 5000,
       messages: [{ role: 'user', content: prompt }],
     }),
   });
@@ -116,13 +170,17 @@ ${!category ? '---CATEGORY---\n[category slug here]' : ''}
   const data = await res.json();
   const responseText = data.content[0].text;
 
-  // Parse response
-  const descMatch = responseText.match(/---META_DESCRIPTION---\s*([\s\S]*?)(?=---(?:CATEGORY|CONTENT)---)/);
-  const catMatch = responseText.match(/---CATEGORY---\s*([\s\S]*?)(?=---CONTENT---)/);
+  // Parse response sections
+  const descMatch = responseText.match(/---META_DESCRIPTION---\s*([\s\S]*?)(?=---(?:CATEGORY|TAGS)---)/);
+  const catMatch = responseText.match(/---CATEGORY---\s*([\s\S]*?)(?=---TAGS---)/);
+  const tagsMatch = responseText.match(/---TAGS---\s*([\s\S]*?)(?=---FAQ---)/);
+  const faqMatch = responseText.match(/---FAQ---\s*([\s\S]*?)(?=---CONTENT---)/);
   const contentMatch = responseText.match(/---CONTENT---\s*([\s\S]*)/);
 
   const description = descMatch?.[1]?.trim() || `${video.title} — marketing insights for accounting firm owners.`;
   const content = contentMatch?.[1]?.trim() || '';
+  const tags = tagsMatch ? parseTags(tagsMatch[1]) : ['accounting-marketing'];
+  const faq = faqMatch ? parseFaq(faqMatch[1]) : [];
 
   if (!category && catMatch) {
     const aiCategory = catMatch[1].trim().toLowerCase() as Category;
@@ -136,7 +194,26 @@ ${!category ? '---CATEGORY---\n[category slug here]' : ''}
     category = 'marketing-strategy';
   }
 
-  return { content, description, category };
+  return { content, description, category, tags, faq };
+}
+
+/**
+ * Format FAQ items as YAML for frontmatter
+ */
+function formatFaqYaml(faq: FaqItem[]): string {
+  if (faq.length === 0) return '';
+  return `faq:\n${faq.map(item =>
+    `  - question: "${item.question.replace(/"/g, '\\"')}"\n    answer: "${item.answer.replace(/"/g, '\\"')}"`
+  ).join('\n')}`;
+}
+
+/**
+ * Format FAQ items as markdown section
+ */
+function formatFaqMarkdown(faq: FaqItem[]): string {
+  if (faq.length === 0) return '';
+  const items = faq.map(item => `### ${item.question}\n\n${item.answer}`).join('\n\n');
+  return `\n\n## Frequently Asked Questions\n\n${items}`;
 }
 
 /**
@@ -153,7 +230,7 @@ export async function generateBlogPost(
     mkdirSync(BLOG_DIR, { recursive: true });
   }
 
-  const { content, description, category } = await generateWithClaude(
+  const { content, description, category, tags, faq } = await generateWithClaude(
     anthropicKey,
     video,
     transcript
@@ -169,7 +246,13 @@ export async function generateBlogPost(
     description: description.replace(/"/g, '\\"'),
     duration: video.duration,
     viewCount: video.viewCount,
+    tags,
+    faq,
   };
+
+  const tagsYaml = `tags:\n${frontmatter.tags.map(t => `  - "${t}"`).join('\n')}`;
+  const faqYaml = formatFaqYaml(frontmatter.faq);
+  const faqMarkdown = formatFaqMarkdown(frontmatter.faq);
 
   const markdown = `---
 title: "${frontmatter.title}"
@@ -181,9 +264,11 @@ thumbnail: "${frontmatter.thumbnail}"
 description: "${frontmatter.description}"
 duration: "${frontmatter.duration}"
 viewCount: ${frontmatter.viewCount}
+${tagsYaml}
+${faqYaml}
 ---
 
-${content}
+${content}${faqMarkdown}
 `;
 
   const filePath = join(BLOG_DIR, `${slug}.md`);
