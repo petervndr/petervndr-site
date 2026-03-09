@@ -11,5 +11,8 @@
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
     "astro": "^5.17.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
   }
 }

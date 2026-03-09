@@ -1,0 +1,303 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const posts = allPosts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const categories = [
+  { slug: 'all', label: 'All Posts' },
+  { slug: 'marketing-strategy', label: 'Marketing Strategy' },
+  { slug: 'client-case-studies', label: 'Case Studies' },
+  { slug: 'sales-pricing', label: 'Sales & Pricing' },
+  { slug: 'business-scaling', label: 'Business Scaling' },
+  { slug: 'content-brand', label: 'Content & Brand' },
+];
+
+function formatDate(dateStr: string): string {
+  return new Date(dateStr).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+}
+
+function parseDuration(iso: string): string {
+  const match = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  if (!match) return '';
+  const h = parseInt(match[1] || '0');
+  const m = parseInt(match[2] || '0');
+  if (h > 0) return `${h}h ${m}m`;
+  return `${m} min`;
+}
+---
+
+<BaseLayout
+  title="Blog — Peter Vander Wall | Marketing for Accounting Firms"
+  description="Marketing strategy, client case studies, sales tactics, and growth playbooks for accounting firm owners. By Peter Vander Wall."
+  canonicalURL="/blog"
+>
+  <section class="blog-hero">
+    <div class="blog-hero-inner">
+      <h1>Blog</h1>
+      <p class="blog-intro">Marketing strategy, case studies, and growth playbooks for accounting firm owners.</p>
+    </div>
+  </section>
+
+  <section class="blog-content">
+    <div class="category-filters">
+      {categories.map(cat => (
+        <button
+          class={`filter-btn ${cat.slug === 'all' ? 'active' : ''}`}
+          data-category={cat.slug}
+        >
+          {cat.label}
+        </button>
+      ))}
+    </div>
+
+    {posts.length === 0 ? (
+      <div class="no-posts">
+        <p>Blog posts are on the way. In the meantime, check out the <a href="https://youtube.com/@petervndr">YouTube channel</a>.</p>
+      </div>
+    ) : (
+      <div class="blog-grid">
+        {posts.map(post => (
+          <a href={`/blog/${post.id}`} class="blog-card" data-category={post.data.category}>
+            <div class="blog-card-thumb">
+              <img src={post.data.thumbnail} alt={post.data.title} loading="lazy" />
+              {post.data.duration && (
+                <span class="blog-card-duration">{parseDuration(post.data.duration)}</span>
+              )}
+            </div>
+            <div class="blog-card-body">
+              <span class="blog-card-category">{post.data.categoryLabel}</span>
+              <h2 class="blog-card-title">{post.data.title}</h2>
+              <p class="blog-card-desc">{post.data.description}</p>
+              <div class="blog-card-meta">
+                <span>{formatDate(post.data.date)}</span>
+                {post.data.viewCount > 0 && (
+                  <span>{post.data.viewCount.toLocaleString()} views</span>
+                )}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.blog-card');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const category = btn.getAttribute('data-category');
+
+          // Update active button
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          // Filter cards
+          cards.forEach(card => {
+            if (category === 'all' || card.getAttribute('data-category') === category) {
+              (card as HTMLElement).style.display = '';
+            } else {
+              (card as HTMLElement).style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .blog-hero {
+    background: #121212;
+    padding: calc(2rem + 74px) 2rem 3rem;
+    text-align: center;
+  }
+
+  .blog-hero h1 {
+    font-size: 3rem;
+    color: var(--color-white);
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-intro {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .blog-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 4rem;
+  }
+
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #e0e0e8;
+    border-radius: 100px;
+    background: #fff;
+    color: #565A7C;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .filter-btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  .filter-btn.active {
+    background: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .blog-card {
+    background: #fff;
+    border: 1px solid #e0e0e8;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.25s, transform 0.25s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .blog-card-thumb {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #e0e0e8;
+  }
+
+  .blog-card-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .blog-card-duration {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  .blog-card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .blog-card-category {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-accent);
+    margin-bottom: 0.35rem;
+  }
+
+  .blog-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #1a1a2e;
+    line-height: 1.35;
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-card-desc {
+    font-size: 0.85rem;
+    color: #565A7C;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    flex: 1;
+    /* Clamp to 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .blog-card-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.75rem;
+    color: #8585a0;
+  }
+
+  .no-posts {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #565A7C;
+  }
+
+  .no-posts a {
+    color: var(--color-accent);
+  }
+
+  @media (max-width: 600px) {
+    .blog-hero {
+      padding: calc(1.5rem + 74px) 1.25rem 2rem;
+    }
+
+    .blog-hero h1 {
+      font-size: 2rem;
+    }
+
+    .blog-content {
+      padding: 1.5rem 1.25rem 3rem;
+    }
+
+    .blog-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .category-filters {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 0.5rem;
+    }
+
+    .filter-btn {
+      white-space: nowrap;
+    }
+  }
+</style>

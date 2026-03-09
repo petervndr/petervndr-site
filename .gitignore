@@ -20,5 +20,8 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# Cached transcripts (generated locally, not needed in repo)
+src/content/transcripts/
+
 # jetbrains setting folder
 .idea/
