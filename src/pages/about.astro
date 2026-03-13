@@ -78,6 +78,14 @@ const personSchema = {
             alt="Peter Vander Wall — The Accountant's Marketing Guy"
             width="320"
             height="320"
+            class="about-image-desktop"
+          />
+          <img
+            src="/images/peter-vander-wall-mobile.jpg"
+            alt="Peter Vander Wall at his desk"
+            width="1500"
+            height="1000"
+            class="about-image-mobile"
           />
         </div>
         <div class="about-intro">
@@ -223,6 +231,10 @@ const personSchema = {
     height: 220px;
     border-radius: 8px;
     object-fit: cover;
+  }
+
+  .about-image-mobile {
+    display: none;
   }
 
   h1 {
@@ -430,9 +442,14 @@ const personSchema = {
       text-align: center;
     }
 
-    .about-image img {
-      width: 180px;
-      height: 180px;
+    .about-image-desktop {
+      display: none;
+    }
+
+    .about-image-mobile {
+      display: block !important;
+      width: 100% !important;
+      height: auto !important;
     }
 
     h1 {

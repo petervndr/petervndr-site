@@ -58,6 +58,14 @@ const homeSchema = {
           <li>Founder of <a href="https://socialclubstudios.com" target="_blank" rel="noopener">Social Club Studios</a> &amp; <a href="https://joinsyaf.com" target="_blank" rel="noopener">Scale Your Accounting Firm</a></li>
           <li>Helping accounting firm owners build predictable revenue since 2021</li>
         </ul>
+        <div class="hero-image-mobile">
+          <img
+            src="/images/peter-vander-wall-mobile.jpg"
+            alt="Peter Vander Wall at his desk"
+            width="1500"
+            height="1000"
+          />
+        </div>
         <div class="hero-cta">
           <a href="/contact" class="btn btn-primary">Get in Touch</a>
         </div>
@@ -294,6 +302,10 @@ const homeSchema = {
 
   .hero-credentials a:hover {
     color: var(--color-white);
+  }
+
+  .hero-image-mobile {
+    display: none;
   }
 
   .hero-cta {
@@ -732,6 +744,17 @@ const homeSchema = {
 
     .hero-image {
       display: none;
+    }
+
+    .hero-image-mobile {
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-image-mobile img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
     }
 
     .section {
