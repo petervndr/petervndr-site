@@ -73,6 +73,15 @@ const fullCanonical = canonicalURL ? `${siteURL}${canonicalURL}` : siteURL;
     }
     </script>
 
+    <!-- Hyros tag -->
+    <script is:inline>
+    var head = document.head;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = "https://t.socialclubstudios.com/v1/lst/universal-script?ph=7b938cc596620ef0c1be7fb4d6eafb7774f19216f3982d13d130f36ebcc99d05&tag=!clicked&ref_url=" + encodeURI(document.URL) ;
+    head.appendChild(script);
+    </script>
+
     <slot name="head" />
   </head>
   <body>
